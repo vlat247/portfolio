@@ -7,26 +7,22 @@ export default function Home() {
       
       <div className="space-y-4 text-lg leading-snug text-[var(--color-text)]">
         <p>
-          I’m a developer and writer. I study at Nazarbayev University.  I’ve been coding for 2 years and teaching for the second half.
+          I'm <a href="https://github.com/vlat247" target="_blank" rel="noopener noreferrer" className="underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500 transition-opacity">developer</a> and <a href="" target="_blank" rel="noopener noreferrer" className="underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500 transition-opacity">student at Nazarbayev University</a>, majoring in Mathematics. I'm 18 years old and started coding in summer '25.
         </p>
 
         <p>
-          My life’s work is to make technology easy to understand and interesting to learn about. I’m a husband, father, and a massive music fan. I last listened to Ran To Atlanta (feat. Future & Molly Santana) by Drake, Future, Molly Santana.
+          My life's goal is simple: experience and learn as much as possible.
         </p>
 
-        <p>Some of my favorite writing includes:</p>
+        <p>Some of interesing things</p>
 
         <ul className="list-disc pl-6 space-y-2">
-          <li>Things I Believe</li>
-          <li>Coding Agents & Complexity Budgets</li>
-          <li>Building Low-Level Software with Only Coding Agents</li>
-          <li>How Does Image Compression Work?</li>
-          <li>Developer Marketing</li>
-          <li>Understanding AI</li>
+          <li>My life in 5 minutes</li>
+          <li>Things I believe in</li>
         </ul>
 
         <p>
-          You can read my writing or code, or follow me online. I also make videos, advise companies, and do angel investing. Reach out if interested.
+          You can read my writing or check out my projects, or follow me online. Reach out if interested.
         </p>
       </div>
     </main>
