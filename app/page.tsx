@@ -24,7 +24,7 @@ export default function Home() {
         </ul>
 
         <p>
-          You can read my writing or check out my projects, or follow me online. Reach out if interested.
+          You can read my writing or check out my projects, or follow me online. <a href="mailto:voddooo247@gmail.com" className="underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500 transition-opacity">Reach out</a> if interested.
         </p>
       </div>
     </main>
