@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "Vladislav Solomonov - Developer & Student",
+  description: "Personal website of Vladislav Solomonov, a developer and Mathematics student at Nazarbayev University.",
+};
 
 export default function Home() {
   return (

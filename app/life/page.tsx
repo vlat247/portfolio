@@ -1,4 +1,10 @@
+import type { Metadata } from "next";
 import Link from "next/link";
+
+export const metadata: Metadata = {
+  title: "My Life in 5 Minutes",
+  description: "A brief look at my journey from a rural village in eastern Kazakhstan to studying Mathematics at Nazarbayev University and coding.",
+};
 
 export default function Life() {
   return (
