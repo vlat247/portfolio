@@ -41,7 +41,7 @@ export default function Life() {
         </p>
         
         <p>
-          Now I'm 18, studying Mathematics, shipping code, and trying to experience as much of this world as possible.
+          Now I'm 18, studying Mathematics, shipping code, and trying to experience as much of this world as possible. I am currently on my <Link href="/independence" className="underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500 transition-opacity">path to independence</Link>.
         </p>
 
         <div className="pt-8 space-y-4">
