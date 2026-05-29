@@ -27,7 +27,7 @@ export default function Home() {
         <ul className="list-disc pl-6 space-y-2">
           <li><Link href="/life" className="hover:opacity-70 transition-opacity underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500">My life in 5 minutes</Link></li>
           <li>Things I believe in</li>
-          <li>Music taste</li>
+          <li><Link href="/music" className="hover:opacity-70 transition-opacity underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500">Music taste</Link></li>
         </ul>
 
         <p>
