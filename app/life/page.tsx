@@ -21,19 +21,19 @@ export default function Life() {
         </h2>
         
         <p>
-          I grew up in a small village in eastern Kazakhstan, Ust-Talovka. No big plans, no ambitions — just a regular rural kid who somehow won some Olympiads.
+          I grew up in a small village in East Kazakhstan, Ust-Talovka. No big dreams or ambitions — just a regular rural kid. 
         </p>
         
         <p>
-          In 8th grade that got me into IQHSB, a private school in Burabay. That place changed everything. New people, new standards, new hunger. I applied to universities across the world. Got into one — Nazarbayev University. Turned out to be the right one.
+          In 8th grade I got into Iqanat High School of Burabay. That place changed everything. New people, new standards, new hunger. I applied to universities across the world. Got into one — Nazarbayev University. Turned out to be the right one.
         </p>
         
         <p>
-          In school I met Zhansar. The hardest working person I've ever known. He pulled me into Hack Club's Neighborhood program and said — just build something. So I did. A Pomodoro timer where you grow a garden. My first project ever.
+          In school I met Zhansar. The hardest working person I've ever known. He pulled me into coding and Hack Club's Neighborhood program and said — just ship something. So I did, a Pomodoro timer where you grow a garden. Haha, my first project ever.
         </p>
         
         <p>
-          He died in January this year. Car accident. I keep building.
+          Zhansar passed away in a car accident in January 2026. The brightest person I've ever known.
         </p>
         
         <p>

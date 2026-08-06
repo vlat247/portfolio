@@ -22,12 +22,12 @@ export default function Home() {
           My life's goal is simple: experience and learn as much as possible.
         </p>
 
-        <p>Some of interesing things</p>
+        <p>Some of interesing things:</p>
 
         <ul className="list-disc pl-6 space-y-2">
           <li><Link href="/life" className="hover:opacity-70 transition-opacity underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500">My life in 5 minutes</Link></li>
-          <li>Things I believe in</li>
-          <li><Link href="/music" className="hover:opacity-70 transition-opacity underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500">Music taste</Link></li>
+          <li><Link href="/beliefs" className="hover:opacity-70 transition-opacity underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500">Things I believe in</Link></li>
+          <li><Link href="/art" className="hover:opacity-70 transition-opacity underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500">My art</Link></li>
         </ul>
 
         <p>
