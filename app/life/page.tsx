@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import FirstProjectGallery from "./FirstProjectGallery";
 
 export const metadata: Metadata = {
   title: "My Life in 5 Minutes",
@@ -29,7 +30,7 @@ export default function Life() {
         </p>
         
         <p>
-          In school I met Zhansar. The hardest working person I've ever known. He pulled me into coding and Hack Club's Neighborhood program and said — just ship something. So I did, a Pomodoro timer where you grow a garden. Haha, my first project ever.
+          In school I met Zhansar. The hardest working person I've ever known. He pulled me into coding and Hack Club's Neighborhood program and said — just ship something. So I did, a Pomodoro timer where you grow a garden. Haha, <FirstProjectGallery />.
         </p>
         
         <p>
