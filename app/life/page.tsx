@@ -29,9 +29,9 @@ export default function Life() {
           In 8th grade I got into Iqanat High School of Burabay. That place changed everything. New people, new standards, new hunger. I applied to universities across the world. Got into one — Nazarbayev University. Turned out to be the right one.
         </p>
         
-        <p>
+        <div>
           In school I met Zhansar. The hardest working person I've ever known. He pulled me into coding and Hack Club's Neighborhood program and said — just ship something. So I did, a Pomodoro timer where you grow a garden. Haha, <FirstProjectGallery />.
-        </p>
+        </div>
         
         <p>
           Zhansar passed away in a car accident in January 2026. The brightest person I've ever known.

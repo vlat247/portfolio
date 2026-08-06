@@ -20,9 +20,10 @@ export default function Beliefs() {
           </Link>
         </h2>
         
-        <p>
-          Coming soon...
-        </p>
+        <ul className="list-disc pl-6 space-y-2 pt-4">
+          <li>we are the blacksmiths of our own fate</li>
+          <li>You cannot step into the same river twice</li>
+        </ul>
       </div>
     </main>
   );
