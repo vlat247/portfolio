@@ -23,27 +23,23 @@ export default function Life() {
         </h2>
         
         <p>
-          I grew up in a small village in East Kazakhstan, Ust-Talovka. No big dreams or ambitions — just a regular rural kid. 
-        </p>
-        
-        <p>
-          In 8th grade I got into <IqanatGallery />. That place changed everything. New people, new standards, new hunger. I applied to universities across the world. Got into one — Nazarbayev University. Turned out to be the right one.
+          I grew up in a small village in East Kazakhstan, Ust-Talovka. It was a quiet place, and for a long time, I didn’t really think about what I wanted to do with my life. I was just a regular kid growing up there.
         </p>
         
         <div>
-          In school I met Zhansar. The hardest working person I've ever known. He pulled me into coding and Hack Club's Neighborhood program and said — just ship something. So I did, a Pomodoro timer where you grow a garden. Haha, <FirstProjectGallery />.
+          In 8th grade, I got into <IqanatGallery />. That place changed a lot for me. New people, new standards, new motivation. I grew a lot academically and eventually got into Nazarbayev University.
+        </div>
+        
+        <div>
+          At school, I met Zhansar — the hardest-working person I’ve ever known. He pulled me into coding and Hack Club’s Neighborhood program and told me: just ship something. So I did. A Pomodoro timer where you grow a garden. Haha, <FirstProjectGallery />.
         </div>
         
         <p>
-          Zhansar passed away in a car accident in January 2026. The brightest person I've ever known.
+          Zhansar is no longer with us, but I still keep building, carrying a little bit of what he gave me along the way.
         </p>
         
         <p>
-          Before code there was drawing school — 8 years of it.
-        </p>
-        
-        <p>
-          Now I'm 18, studying Mathematics, shipping code, and trying to experience as much of this world as I can.
+          Now I’m 18, studying Mathematics, shipping code, and trying to experience as much of this world as I can.
         </p>
 
         <div className="pt-8 space-y-4">
