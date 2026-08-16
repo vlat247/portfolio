@@ -92,7 +92,7 @@ export default function FirstProjectGallery() {
             <div className="relative w-[90vw] md:w-[50vw] max-w-[800px] perspective-1000" onClick={(e) => e.stopPropagation()}>
               
               {/* Invisible spacer to maintain layout height based on aspect ratio */}
-              <div className="invisible bg-white p-4 pb-16 md:p-6 md:pb-24 shadow-md rounded-[2px] w-full">
+              <div className="invisible bg-[#f9f8f6] p-4 pb-16 md:p-6 md:pb-24 shadow-md rounded-[2px] w-full">
                 <div className="relative w-full aspect-video" />
               </div>
 
@@ -143,19 +143,33 @@ export default function FirstProjectGallery() {
                         prevImage();
                       }
                     }}
-                    className={`absolute inset-0 bg-white p-4 pb-16 md:p-6 md:pb-24 shadow-2xl border border-gray-100 rounded-[2px] w-full origin-bottom ${stackIndex === 0 ? 'cursor-grab active:cursor-grabbing' : ''}`}
+                    className={`absolute inset-0 bg-[#f9f8f6] p-4 pb-16 md:p-6 md:pb-24 shadow-2xl border border-gray-200 rounded-[2px] w-full origin-bottom ${stackIndex === 0 ? 'cursor-grab active:cursor-grabbing' : ''}`}
                   >
-                    {/* Image */}
-                    <div className="relative w-full aspect-video bg-[#f0f0f0] flex items-center justify-center overflow-hidden border border-gray-100 shadow-inner pointer-events-none">
+                    {/* TV Screen */}
+                    <div className="relative w-full aspect-video bg-gray-900 flex items-center justify-center overflow-hidden border border-gray-300 shadow-[inset_0_0_10px_rgba(0,0,0,0.3)] pointer-events-none z-10 transform-gpu">
                       <img 
                         src={url} 
                         alt={`Photo ${originalIndex + 1}`}
-                        className="w-full h-full object-cover"
+                        className="w-full h-full object-cover contrast-[1.1] saturate-[1.2] sepia-[0.1]"
                         draggable={false}
                       />
+                      
+                      {/* Scanlines */}
                       <div 
-                        className="absolute inset-0 pointer-events-none"
-                        style={{ background: 'radial-gradient(circle, transparent 60%, rgba(0,0,0,0.4) 150%)' }}
+                        className="absolute inset-0 pointer-events-none opacity-10"
+                        style={{ background: 'repeating-linear-gradient(transparent, transparent 2px, black 3px, black 4px)' }}
+                      />
+
+                      {/* Screen Glare */}
+                      <div 
+                        className="absolute inset-0 pointer-events-none opacity-10"
+                        style={{ background: 'radial-gradient(ellipse at 50% 20%, white 0%, transparent 60%)' }}
+                      />
+                      
+                      {/* CRT Vignette / Tube Curvature */}
+                      <div 
+                        className="absolute inset-0 pointer-events-none opacity-40"
+                        style={{ background: 'radial-gradient(circle, transparent 70%, black 100%)' }}
                       />
                     </div>
                   </motion.div>
