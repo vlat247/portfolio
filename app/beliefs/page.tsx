@@ -20,10 +20,26 @@ export default function Beliefs() {
           </Link>
         </h2>
         
-        <ul className="list-disc pl-6 space-y-2 pt-4">
-          <li>we are the blacksmiths of our own fate</li>
-          <li>You cannot step into the same river twice</li>
-        </ul>
+        <div className="pt-4 space-y-8">
+          <section>
+            <h3 className="text-xl font-medium mb-3">We are the blacksmiths of our own fate</h3>
+            <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+              <li>You don't need to know exactly where you're going to start moving.</li>
+              <li>Your circumstances matter, but they don't have to define you.</li>
+              <li>Most lives are built through small decisions rather than one grand plan.</li>
+              <li>Take responsibility for what you can change.</li>
+            </ul>
+          </section>
+
+          <section>
+            <h3 className="text-xl font-medium mb-3">You cannot step into the same river twice</h3>
+            <ul className="list-disc pl-6 space-y-2 text-gray-700 dark:text-gray-300">
+              <li>Everything changes, including you.</li>
+              <li>Some things are meant to be remembered, not repeated.</li>
+              <li>Growth sometimes means leaving things behind.</li>
+            </ul>
+          </section>
+        </div>
       </div>
     </main>
   );
