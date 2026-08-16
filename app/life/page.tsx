@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import FirstProjectGallery from "./FirstProjectGallery";
+import IqanatGallery from "./IqanatGallery";
 
 export const metadata: Metadata = {
   title: "My Life in 5 Minutes",
@@ -26,7 +27,7 @@ export default function Life() {
         </p>
         
         <p>
-          In 8th grade I got into Iqanat High School of Burabay. That place changed everything. New people, new standards, new hunger. I applied to universities across the world. Got into one — Nazarbayev University. Turned out to be the right one.
+          In 8th grade I got into <IqanatGallery />. That place changed everything. New people, new standards, new hunger. I applied to universities across the world. Got into one — Nazarbayev University. Turned out to be the right one.
         </p>
         
         <div>
