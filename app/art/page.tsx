@@ -20,9 +20,26 @@ export default function Art() {
           </Link>
         </h2>
         
-        <p>
-          Coming soon...
-        </p>
+        <ul className="list-none space-y-2 pt-2">
+          <li>
+            <a 
+              href="https://vision247.vercel.app" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="underline decoration-gray-400 decoration-1 underline-offset-3 hover:decoration-gray-500 transition-opacity focus:outline-none"
+            >
+              Vision247
+            </a>
+          </li>
+        </ul>
+
+        <div className="pt-8">
+          <img 
+            src="/my-art/vision.png" 
+            alt="Vision247 Artwork" 
+            className="w-full rounded-md shadow-lg"
+          />
+        </div>
       </div>
     </main>
   );
